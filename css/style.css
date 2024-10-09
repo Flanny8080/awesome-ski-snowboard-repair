@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #000080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('../images/rainier.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+    text-align: center;
+}
+
+#intro h2 {
+    font-size: 48px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#intro p {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(0, 0, 0);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Contact Section */
+#contactForm {
+    text-align: center;
+}
+
+/* About Section */
+#aboutSec {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/* Services Section */
+#services {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/* Styles for devices with a width up to 600px */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        width: 100%;
+    }
+}
